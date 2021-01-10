@@ -1,0 +1,174 @@
+@media (max-width: 1400px) {
+    .feature-section__img{
+        width: 46%;
+        top: 20%;
+    }
+}
+@media (max-width: 950px) {
+    .header__list{
+        .burger-img{
+		display: block;
+		width: 32px;
+        }
+        .menu{
+            display: none;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-section__item{
+        width: 100%;
+    }
+    .header-section__item:last-child{
+        display: none;
+    }
+    .header-section__list{
+        justify-content: center;
+    }
+    .header-section{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .service__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item{
+            width: 50%;
+        }    
+    }
+    .feature-section__img{
+        display: none;
+    }
+    .feature__list-item{
+        width: 100%;
+    }
+    .other__list-item{
+        width: 50%;
+    }
+    .resourse__list{
+        flex-wrap: wrap;
+        &-item{
+            width: 100%;
+        }
+        &-item:first-child{
+            margin-bottom: 20px;
+        }
+    }
+    .pricing__list{
+        flex-wrap: wrap;
+        height: 100%;
+        &-item{
+            width: 45%;
+            height: 450px;
+        }
+        &-item:last-child{
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 480px) {
+    body{
+        font-size: 10px;
+    }
+    .container{
+        padding: 0 5px;
+    }
+    .header__list{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .header-section__item .header-description{
+        font-size: 30px;
+    }
+    .header-section__item .header-text{
+        font-size: 18px;
+    }
+    .header__btns{
+        font-size: 14px;
+    }
+    .header__btns .google-play__btn{
+        column-gap: 10px;
+        height: 60px;
+    }
+    .header__btns .learn-more__btn{
+        height: 60px;
+    }
+    .service__list-item{
+        width: 100%;
+        min-height: 190px;
+        margin-bottom: 25px;
+    }
+    .services-section{
+        padding-bottom: 0;
+    }
+    .feature-section {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .block-descr {
+        font-size: 14px;
+    }
+    .feature__list .feature__menu {
+        margin-top: 40px;
+    }
+    .feature__list .feature-btn{
+        margin-top: 15px;   
+    }
+    .other__list-item{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .resourse__list-item:first-child{
+        padding-right: 0;
+    }
+    .resourse__list-item:last-child{
+        padding-right: 0;
+    }
+    .resourse-section{
+        padding: 60px 0;
+    }
+    .pricing__list-item{
+        width: 100%;
+        height: 365px;
+        margin-bottom: 25px;
+    }
+    .pricing__list-price {
+        font-size: 50px;
+    }
+    .pricing__list-price sup, .pricing__list-price sub{
+        font-size: 14px;    
+    }   
+    .pricing__list span{
+        margin-bottom: 10px;
+    }
+    .pricing-section {
+        padding-bottom: 50px;
+    }
+    .subscribe-section .subscribe__list input,
+    .subscribe-section .subscribe__list button{
+        width: 80%;
+        height: 50px;
+    }
+    .end__list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end__list p:nth-child(2){
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slider__text{
+        font-size: 13px;
+    }
+    .slider__item{
+        padding: 0 15px;
+        padding-bottom: 30px;
+    }
+}
